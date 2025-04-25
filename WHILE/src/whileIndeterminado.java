@@ -12,7 +12,7 @@ public class whileIndeterminado {
             System.out.print("Voce diz: ");
             valor = entrada.nextLine();
         }
-        entrada.close();
+        entrada.close(); //18:44
 
 
     }
