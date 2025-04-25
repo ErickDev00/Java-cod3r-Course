@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6cefd60-250e-40d4-97f8-30b09ddc5cac" name="Changes" comment="" />
+    <list default="true" id="f6cefd60-250e-40d4-97f8-30b09ddc5cac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/WHILE/src/desafioWhile.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +45,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ERICK/ProjetosJava/JavaCod3rCourse/WHILE",
+    "last_opened_file_path": "C:/Users/ERICK/ProjetosJava/JavaCod3rCourse",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
