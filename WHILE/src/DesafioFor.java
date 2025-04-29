@@ -7,7 +7,6 @@ public class DesafioFor {
             System.out.println(valor);
             valor += "#";
         }
-
         //fazer o for sem usar controle numerico;
 
         for (String v="#"; !v.equals("######"); v += "#"){
