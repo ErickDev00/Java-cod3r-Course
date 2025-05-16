@@ -2,10 +2,10 @@ public class ProdutoTeste {
 
     public static void main(String[] args) {
 
-        Produto p1 = new Produto();
-        p1.nome = "Celular";
-        p1.preco = 3299.90;
-        p1.desconto = 0.25;
+        Produto p1 = new Produto("Celular", 3299.90, 0.25);
+        //p1.nome = "Celular";
+        //p1.preco = 3299.90;
+        //p1.desconto = 0.25;
 
         Produto p2 = new Produto();
         p2.nome = "Tablet";
@@ -18,6 +18,8 @@ public class ProdutoTeste {
         double precoFinal2 = p2.precoComDesconto();
         System.out.println(precoFinal1);
         System.out.println(precoFinal2);
+
+        //9:18
 
 
 
