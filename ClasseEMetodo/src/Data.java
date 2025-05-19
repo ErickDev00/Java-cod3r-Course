@@ -13,7 +13,7 @@ public class Data {
         //apenas em métodos construtores; E o que define qual você está chamando é a quantidade de parâmetros e a ordem.
     }
 
-
+    //exemplo de construtor
     Data(Integer dia, Integer mesInicial, Integer anoInicial){
         this.dia = dia; //aqui pego a variável de instância(objeto) com this.
         mes = mesInicial;
@@ -24,7 +24,8 @@ public class Data {
     //formatando a data para string (metodo)
     //sempre estara sendo executado a partir de uma instância (objeto).
     String obterDataFormatada(){
-        return String.format("%d/%d/%d", this.dia, mes, ano);
+        final String formato = "%d/%d/%d"; //variavel local
+        return String.format(formato, this.dia, mes, ano);
     }
 
 
