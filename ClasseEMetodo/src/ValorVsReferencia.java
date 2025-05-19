@@ -22,13 +22,25 @@ public class ValorVsReferencia {
 
         voltarParaValorPadrao(d4);
         System.out.println(d4.obterDataFormatada());
+
+
+        int c = 5;
+        alterarPrimitivo(c);
+        System.out.println(c);
+
+
     }
 
-    //evitar 27:57
+    //evitar
     static void voltarParaValorPadrao(Data d){
         d.dia = 1;
         d.mes = 1;
         d.ano = 1970;
+    }
+
+    //o que é modificado abaixo não gera impacto algum
+    static void alterarPrimitivo(int a){
+        a++;
     }
 
 }
