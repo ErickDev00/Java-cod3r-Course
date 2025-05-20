@@ -23,6 +23,7 @@ public class Data {
 
     //formatando a data para string (metodo)
     //sempre estara sendo executado a partir de uma instância (objeto).
+
     String obterDataFormatada(){
         final String formato = "%d/%d/%d"; //variavel local
         return String.format(formato, this.dia, mes, ano);
