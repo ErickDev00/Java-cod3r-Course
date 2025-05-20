@@ -4,7 +4,13 @@ public class Foreach {
 
         //percorrer um array inteiro;
         for (double nota: notas){
-            System.out.println(nota);
+            System.out.print(nota + " ");
+        }
+
+        System.out.println();
+
+        for (int i = 0; i < notas.length; i++){
+            System.out.print(notas[i] + " ");
         }
     }
 }
