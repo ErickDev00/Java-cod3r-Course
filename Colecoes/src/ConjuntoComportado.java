@@ -12,7 +12,7 @@ public class ConjuntoComportado {
         lista.add("Junior");
         lista.add("Mary Jane");
 
-        for (String candidato: lista){
+        for (String candidato: lista){ //para cada candidato de lista sout(candidato) foreach
             System.out.println(candidato);
         }
 
