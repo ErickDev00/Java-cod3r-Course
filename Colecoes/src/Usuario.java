@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Usuario {
     String nome;
     String email;
@@ -23,5 +25,17 @@ public class Usuario {
     @Override
     public String toString() {
         return "Meu nome é " + this.nome + ", e meu email é: " + this.email + ".";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        Usuario usuario = (Usuario) o;
+        return idade == usuario.idade && Objects.equals(nome, usuario.nome) && Objects.equals(email, usuario.email);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nome, email, idade);
     }
 }
