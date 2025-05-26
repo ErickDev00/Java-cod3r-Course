@@ -1,5 +1,5 @@
 public class Motor {
-    Carro carro;
+    Carro carro; // Cada motor está vinculado a exatamente um carro.
 
     //variaveis de classe
     double fatorInjecao = 1;
