@@ -1,9 +1,7 @@
 package Desafio;
 public class Item {
     int quantidade;
-
-
-    Produto produto; //1 item aponta para apenas um produto.
+    Produto produto; //Cada produto pertence a um único Item.
 
     //recebe o objeto como parâmetro.
     Item(Produto produto, int quantidade){

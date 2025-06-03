@@ -1,0 +1,20 @@
+package Heranca;
+
+public class Jogador {
+
+    int x;
+    int y;
+
+    boolean andar(Direcao direcao){
+
+
+
+        if (direcao == Direcao.NORTE) {
+            y++;
+        }
+        return true;
+    }
+
+
+
+}

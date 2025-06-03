@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Compra {
 
-    Cliente cliente; //Uma compra aponta para apenas um cliente.
+    Cliente cliente;
 
     final List<Item> itens = new ArrayList<>(); //compra é composta por uma lista de itens.
 
