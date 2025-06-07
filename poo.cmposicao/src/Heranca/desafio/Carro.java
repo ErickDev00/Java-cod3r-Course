@@ -2,10 +2,22 @@ package Heranca.desafio;
 
 public class Carro {
 
+    final double VELOCIDADE_MAXIMA;
     double velocidadeAtual;
+    int delta = 5;
+
+    //perdendo construtor padrão.
+    Carro(double velocidadeMaxima){
+        VELOCIDADE_MAXIMA = velocidadeMaxima;
+    }
 
     void acelerar(){
-        velocidadeAtual += 5;
+        if (velocidadeAtual + delta > VELOCIDADE_MAXIMA){
+            velocidadeAtual =VELOCIDADE_MAXIMA;
+        } else {
+            velocidadeAtual += delta;
+        }
+
     }
 
     void freiar(){

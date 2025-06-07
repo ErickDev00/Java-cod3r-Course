@@ -22,6 +22,8 @@ public class Pista {
         c2.acelerar();
         System.out.println(c2);
 
+        Carro c3 = new Ferrari(400);
+
 
     }
 }
