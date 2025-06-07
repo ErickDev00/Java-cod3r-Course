@@ -3,6 +3,10 @@ package Heranca;
 public class Heroi extends Jogador { //vai receber código a partir do mecanismo de herança.
     //o Heroi e um jogador.
 
+    Heroi(int x, int y){
+        super(x,y); //precisa chamar sempre que a classe pai nao tenho o const padrão definido.
+    }
+
 
     boolean atacar(Jogador oponente) {
         int deltaX = Math.abs(x - oponente.x);
