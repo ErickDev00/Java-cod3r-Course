@@ -7,11 +7,11 @@ public class Carro {
     int delta = 5;
 
     //perdendo construtor padrão.
-    Carro(double velocidadeMaxima){
+    protected Carro(double velocidadeMaxima){
         VELOCIDADE_MAXIMA = velocidadeMaxima;
     }
 
-    void acelerar(){
+    public void acelerar(){
         if (velocidadeAtual + delta > VELOCIDADE_MAXIMA){
             velocidadeAtual =VELOCIDADE_MAXIMA;
         } else {
@@ -20,7 +20,7 @@ public class Carro {
 
     }
 
-    void freiar(){
+    public void freiar(){
         if (velocidadeAtual >= 5){
             velocidadeAtual -= 5;
         }else {

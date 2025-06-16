@@ -3,6 +3,7 @@ public class Carro {
     Motor motor; // Cada carro possui exatamente um motor.
 
     Carro(){
+
         this.motor = new Motor(this);
     }
 

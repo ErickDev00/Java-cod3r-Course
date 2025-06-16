@@ -1,8 +1,13 @@
 package Heranca.desafio;
 
 public class Civic extends Carro{
-    Civic(){
-        super(212);
+    public Civic(){
+        this(212);
+    }
+
+    public Civic(double velocidadeMaxima){
+        super(velocidadeMaxima);
+        delta = 25;
     }
 
 

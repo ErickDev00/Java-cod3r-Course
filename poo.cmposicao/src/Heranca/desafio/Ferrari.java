@@ -2,19 +2,19 @@ package Heranca.desafio;
 
 public class Ferrari extends Carro{
 
-    Ferrari(){
+    public Ferrari(){
         this(365);
     }
 
-    Ferrari(double velocidadeMaxima){
+    public Ferrari(double velocidadeMaxima){
         super(velocidadeMaxima);
         delta = 45;
     }
 
 
     //sobrescrevendo o métod
-    @Override
-    void acelerar() {
-        velocidadeAtual += 15;
-    }
+    //@Override
+    //public void acelerar() {
+        //velocidadeAtual += 15;
+    //}
 }
