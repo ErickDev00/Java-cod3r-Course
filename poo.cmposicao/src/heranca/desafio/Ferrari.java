@@ -1,4 +1,4 @@
-package Heranca.desafio;
+package heranca.desafio;
 
 public class Ferrari extends Carro{
 

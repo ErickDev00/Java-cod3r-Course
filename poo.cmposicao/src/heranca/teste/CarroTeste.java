@@ -1,6 +1,6 @@
-package Heranca.teste;
+package heranca.teste;
 
-import Heranca.desafio.Civic;
+import heranca.desafio.Civic;
 
 public class CarroTeste {
 

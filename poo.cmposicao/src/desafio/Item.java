@@ -1,4 +1,4 @@
-package Desafio;
+package desafio;
 public class Item {
     int quantidade;
     Produto produto; //Cada produto pertence a um único Item.

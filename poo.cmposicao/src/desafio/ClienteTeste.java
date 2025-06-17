@@ -1,4 +1,4 @@
-package Desafio;
+package desafio;
 
 public class ClienteTeste {
     public static void main(String[] args) {
