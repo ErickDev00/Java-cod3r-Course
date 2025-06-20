@@ -8,7 +8,7 @@ public class CalculoTeste2 {
         System.out.println(soma.executar(2, 3));
 
         //para multiplicar
-        Calculo multiplicar = (x,y) -> {return x * y;};
+        Calculo multiplicar = (x,y) ->  x * y;
         System.out.println(multiplicar.executar(5,3));
 
 
