@@ -20,13 +20,13 @@ public class imprimindoObjetos {
             System.out.println(nome);
         }
 
-
+        System.out.println("\nUsando Iterator");
         Iterator<String> it = aprovados.iterator();
         while (it.hasNext()){
             System.out.println(it.next());
         }
 
-
+        System.out.println("\nUsando Stream");
         Stream<String> st = aprovados.stream();
         st.forEach(System.out::println);
 
