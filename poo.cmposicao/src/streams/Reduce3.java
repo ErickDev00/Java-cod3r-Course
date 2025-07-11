@@ -27,7 +27,10 @@ public class Reduce3 {
 
         BinaryOperator<Media> combinarMedia = (m1, m2) -> Media.combinar(m1, m2);
 
-        Media media = alunos.stream().filter(aprovado).map(apenasNota).reduce(new Media(), calcularMedia, combinarMedia);
+        Media media = alunos.stream()
+                .filter(aprovado)
+                .map(apenasNota)
+                .reduce(new Media(), calcularMedia, combinarMedia);
 
         System.out.println("A média do aluno é " + media.getValor());
     }
